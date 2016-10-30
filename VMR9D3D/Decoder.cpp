@@ -24,7 +24,7 @@ CDecoder::CDecoder(LPCWSTR fileName, HWND d3dHwnd, IDirect3DDevice9* device) :
 
 	// 连接源和渲染器
 	CComPtr<IEnumPins> enumPins;
-	CComPtr<IPin> sourcePin, renderPin;
+	CComPtr<IPin> sourcePin, rendererPin;
 	PIN_DIRECTION pinDir;
 
 	m_source->EnumPins(&enumPins);
@@ -38,16 +38,16 @@ CDecoder::CDecoder(LPCWSTR fileName, HWND d3dHwnd, IDirect3DDevice9* device) :
 	enumPins.Release();
 
 	m_vmr9->EnumPins(&enumPins);
-	while (enumPins->Next(1, &renderPin, NULL) == S_OK)
+	while (enumPins->Next(1, &rendererPin, NULL) == S_OK)
 	{
-		renderPin->QueryDirection(&pinDir);
+		rendererPin->QueryDirection(&pinDir);
 		if (pinDir == PINDIR_INPUT)
 			break;
-		renderPin.Release();
+		rendererPin.Release();
 	}
 	enumPins.Release();
 
-	hr = m_graph->Connect(sourcePin, renderPin);
+	hr = m_graph->Connect(sourcePin, rendererPin);
 }
 
 void CDecoder::Run()

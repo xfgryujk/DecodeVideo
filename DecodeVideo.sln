@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VMR9D3D", "VMR9D3D\VMR9D3D.vcxproj", "{3EE320AA-CE3B-41E8-B8FA-1E4A98882527}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderFilterGDI", "RenderFilterGDI\RenderFilterGDI.vcxproj", "{02BEEBF0-8F2F-4840-B7E5-211E49B440D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{3EE320AA-CE3B-41E8-B8FA-1E4A98882527}.Debug|Win32.Build.0 = Debug|Win32
 		{3EE320AA-CE3B-41E8-B8FA-1E4A98882527}.Release|Win32.ActiveCfg = Release|Win32
 		{3EE320AA-CE3B-41E8-B8FA-1E4A98882527}.Release|Win32.Build.0 = Release|Win32
+		{02BEEBF0-8F2F-4840-B7E5-211E49B440D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02BEEBF0-8F2F-4840-B7E5-211E49B440D2}.Debug|Win32.Build.0 = Debug|Win32
+		{02BEEBF0-8F2F-4840-B7E5-211E49B440D2}.Release|Win32.ActiveCfg = Release|Win32
+		{02BEEBF0-8F2F-4840-B7E5-211E49B440D2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
