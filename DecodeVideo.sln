@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VMR9D3D", "VMR9D3D\VMR9D3D.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderFilterGDI", "RenderFilterGDI\RenderFilterGDI.vcxproj", "{02BEEBF0-8F2F-4840-B7E5-211E49B440D2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegGDI", "FFmpegGDI\FFmpegGDI.vcxproj", "{97F4AB27-2F4D-4451-9F24-77CB8D180B3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,10 @@ Global
 		{02BEEBF0-8F2F-4840-B7E5-211E49B440D2}.Debug|Win32.Build.0 = Debug|Win32
 		{02BEEBF0-8F2F-4840-B7E5-211E49B440D2}.Release|Win32.ActiveCfg = Release|Win32
 		{02BEEBF0-8F2F-4840-B7E5-211E49B440D2}.Release|Win32.Build.0 = Release|Win32
+		{97F4AB27-2F4D-4451-9F24-77CB8D180B3C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{97F4AB27-2F4D-4451-9F24-77CB8D180B3C}.Debug|Win32.Build.0 = Debug|Win32
+		{97F4AB27-2F4D-4451-9F24-77CB8D180B3C}.Release|Win32.ActiveCfg = Release|Win32
+		{97F4AB27-2F4D-4451-9F24-77CB8D180B3C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
